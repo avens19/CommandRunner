@@ -1,0 +1,10 @@
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.XBMC.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.XBMC.pdb
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.XBMC\obj\Debug\Ovens.Andrew.CommandRunner.XBMC.csprojResolveAssemblyReference.cache
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.XBMC\obj\Debug\Ovens.Andrew.CommandRunner.XBMC.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.XBMC\obj\Debug\Ovens.Andrew.CommandRunner.XBMC.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.XBMC.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.XBMC.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.XBMC\obj\Debug\Ovens.Andrew.CommandRunner.XBMC.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.XBMC\obj\Debug\Ovens.Andrew.CommandRunner.XBMC.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.XBMC\obj\Debug\Ovens.Andrew.CommandRunner.XBMC.pdb

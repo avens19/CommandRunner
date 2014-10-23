@@ -1,0 +1,10 @@
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.pdb
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater\obj\Debug\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.csprojResolveAssemblyReference.cache
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater\obj\Debug\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater\obj\Debug\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater\obj\Debug\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater\obj\Debug\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater\obj\Debug\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.pdb

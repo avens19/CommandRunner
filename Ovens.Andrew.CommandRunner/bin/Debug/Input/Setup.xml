@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CommandCollection>
+  <Commands>
+    <Command name="TheRenamer">
+      <Settings>
+        <Setting name="movieDir" value="C:\Users\Andrew\Desktop\mvd" />
+        <Setting name="tvDir" value="C:\Users\Andrew\Desktop\tvd" />
+        <Setting name="path" value="C:\Program Files (x86)\theRenamer\theRenamer.exe" />
+        <Setting name="postWaitTime" value="15000" />
+        <Setting name="torrentStatus" value="11" />
+      </Settings>
+    </Command>
+    <Command name="XBMC">
+      <Settings>
+        <Setting name="username" value="andrew" />
+        <Setting name="password" value="bantam" />
+        <Setting name="host" value="http://localhost:8088/jsonrpc" />
+      </Settings>
+    </Command>
+    <Command name="UTorrent">
+      <Settings>
+        <Setting name="username" value="Andrew" />
+        <Setting name="password" value="bantam" />
+        <Setting name="host" value="http://localhost:8080/gui/" />
+      </Settings>
+    </Command>
+  </Commands>
+</CommandCollection>

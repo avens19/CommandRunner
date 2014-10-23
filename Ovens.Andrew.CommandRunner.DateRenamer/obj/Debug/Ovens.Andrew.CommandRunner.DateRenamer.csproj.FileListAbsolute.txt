@@ -1,0 +1,10 @@
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.DateRenamer.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.DateRenamer.pdb
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.DateRenamer\obj\Debug\Ovens.Andrew.CommandRunner.DateRenamer.csprojResolveAssemblyReference.cache
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.DateRenamer\obj\Debug\Ovens.Andrew.CommandRunner.DateRenamer.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.DateRenamer\obj\Debug\Ovens.Andrew.CommandRunner.DateRenamer.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.DateRenamer.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner\bin\Debug\Extensions\Ovens.Andrew.CommandRunner.DateRenamer.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.DateRenamer\obj\Debug\Ovens.Andrew.CommandRunner.DateRenamer.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.DateRenamer\obj\Debug\Ovens.Andrew.CommandRunner.DateRenamer.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.DateRenamer\obj\Debug\Ovens.Andrew.CommandRunner.DateRenamer.pdb

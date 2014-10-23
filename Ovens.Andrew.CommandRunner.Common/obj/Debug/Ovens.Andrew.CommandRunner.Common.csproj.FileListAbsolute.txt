@@ -1,0 +1,14 @@
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.Common\bin\Debug\Ovens.Andrew.CommandRunner.Common.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.Common\bin\Debug\Ovens.Andrew.CommandRunner.Common.pdb
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.Common\bin\Debug\RestSharp.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.Common\bin\Debug\RestSharp.xml
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.Common\obj\Debug\Ovens.Andrew.CommandRunner.Common.csprojResolveAssemblyReference.cache
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.Common\obj\Debug\Ovens.Andrew.CommandRunner.Common.dll
+C:\Users\andrew.ovens\Documents\GitHub\CommandRunner\Ovens.Andrew.CommandRunner.Common\obj\Debug\Ovens.Andrew.CommandRunner.Common.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.Common\obj\Debug\Ovens.Andrew.CommandRunner.Common.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.Common\obj\Debug\Ovens.Andrew.CommandRunner.Common.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.Common\obj\Debug\Ovens.Andrew.CommandRunner.Common.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.Common\bin\Debug\Ovens.Andrew.CommandRunner.Common.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.Common\bin\Debug\Ovens.Andrew.CommandRunner.Common.pdb
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.Common\bin\Debug\RestSharp.dll
+C:\Users\Andrew\Source\Repos\CommandRunner\Ovens.Andrew.CommandRunner.Common\bin\Debug\RestSharp.xml
