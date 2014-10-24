@@ -1,29 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<CommandCollection>
+<SetupFile>
   <Commands>
     <Command name="TheRenamer">
       <Settings>
-        <Setting name="movieDir" value="C:\Users\Andrew\Desktop\mvd" />
-        <Setting name="tvDir" value="C:\Users\Andrew\Desktop\tvd" />
-        <Setting name="path" value="C:\Program Files (x86)\theRenamer\theRenamer.exe" />
-        <Setting name="postWaitTime" value="15000" />
-        <Setting name="torrentStatus" value="11" />
+        <Setting name="movieDir" value="" />
+        <Setting name="tvDir" value="" />
+        <Setting name="path" value="" />
+        <Setting name="postWaitTime" value="" />
+        <Setting name="torrentStatus" value="" />
       </Settings>
     </Command>
     <Command name="XBMC">
       <Settings>
-        <Setting name="username" value="andrew" />
-        <Setting name="password" value="bantam" />
-        <Setting name="host" value="http://localhost:8088/jsonrpc" />
+        <Setting name="username" value="" />
+        <Setting name="password" value="" />
+        <Setting name="host" value="" />
       </Settings>
     </Command>
     <Command name="UTorrent">
       <Settings>
-        <Setting name="username" value="Andrew" />
-        <Setting name="password" value="bantam" />
-        <Setting name="host" value="http://localhost:8080/gui/" />
+        <Setting name="username" value="" />
+        <Setting name="password" value="" />
+        <Setting name="host" value="" />
+      </Settings>
+    </Command>
+    <Command name="Messenger">
+      <Settings>
+        <Setting name="accountSid" value="" />
+        <Setting name="authToken" value="" />
+        <Setting name="fromNumber" value="" />
+        <Setting name="toNumber" value="" />
       </Settings>
     </Command>
   </Commands>
-</CommandCollection>
+  <Parameters></Parameters>
+  <LogSourceName></LogSourceName>
+</SetupFile>

@@ -14,6 +14,8 @@ namespace Ovens.Andrew.CommandRunner.Common
         private static string _source;
         private static int _id;
 
+        public static bool Initialized = false;
+
         public static void Initialize(string sourceName)
         {
             if(string.IsNullOrWhiteSpace(sourceName))
@@ -21,6 +23,8 @@ namespace Ovens.Andrew.CommandRunner.Common
 
             _source = sourceName;
             _id = Process.GetCurrentProcess().Id;
+            EventLog.WriteEntry(_source, "Log Initialized", EventLogEntryType.SuccessAudit, _id);
+            Initialized = true;
         }
 
         public static void Install()
