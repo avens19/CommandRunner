@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Xml.Serialization;
 
-namespace Ovens.Andrew.CommandRunner
+namespace Ovens.Andrew.CommandRunner.Common
 {
     /// <summary>
     ///     Used for serializing settings
