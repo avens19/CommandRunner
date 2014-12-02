@@ -58,15 +58,19 @@ namespace Ovens.Andrew.CommandRunner.DateRenamer
                         {
                             try
                             {
+                                string path = Path.Combine(_outDir, modified.Year.ToString("0000"), modified.Month.ToString("00"));
+                                if (!Directory.Exists(path))
+                                    Directory.CreateDirectory(path);
+
                                 if (dupeValue == 0)
                                 {
-                                    string newPath = string.Concat(Path.Combine(_outDir, newName), Path.GetExtension(file));
+                                    string newPath = string.Concat(Path.Combine(path, newName), Path.GetExtension(file));
                                     Log.Comment("{0} -> {1}", file, newPath);
                                     File.Move(file, newPath);
                                 }
                                 else
                                 {
-                                    string newPath = string.Concat(Path.Combine(_outDir, string.Format("{0}-{1}", newName, dupeValue)), Path.GetExtension(file));
+                                    string newPath = string.Concat(Path.Combine(path, string.Format("{0}-{1}", newName, dupeValue)), Path.GetExtension(file));
                                     Log.Comment("{0} -> {1}", file, newPath);
                                     File.Move(file, newPath);
                                 }

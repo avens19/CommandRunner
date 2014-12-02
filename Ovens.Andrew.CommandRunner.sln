@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovens.Andrew.CommandRunner", "Ovens.Andrew.CommandRunner\Ovens.Andrew.CommandRunner.csproj", "{8BBCFECC-B2AB-4AE2-BD22-812460B0D36B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovens.Andrew.CommandRunner.TheRenamer", "Ovens.Andrew.CommandRunner.TheRenamer\Ovens.Andrew.CommandRunner.TheRenamer.csproj", "{4D502A57-2CDD-4B43-B364-E48C1293A553}"
@@ -16,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovens.Andrew.CommandRunner.UTorrentFeedUpdater", "Ovens.Andrew.CommandRunner.UTorrentFeedUpdater\Ovens.Andrew.CommandRunner.UTorrentFeedUpdater.csproj", "{CDD469E0-99AA-47C8-8CE9-D8588A8AFE20}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovens.Andrew.CommandRunner.Messenger", "Ovens.Andrew.CommandRunner.Messenger\Ovens.Andrew.CommandRunner.Messenger.csproj", "{40587D96-39AF-49B5-A9AD-B0143BD5FA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ovens.Andrew.CommandRunner.RestartProcess", "Ovens.Andrew.CommandRunner.RestartProcess\Ovens.Andrew.CommandRunner.RestartProcess.csproj", "{DE6FFB4E-B229-432A-99FF-983E77D1DE98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{40587D96-39AF-49B5-A9AD-B0143BD5FA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40587D96-39AF-49B5-A9AD-B0143BD5FA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40587D96-39AF-49B5-A9AD-B0143BD5FA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6FFB4E-B229-432A-99FF-983E77D1DE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6FFB4E-B229-432A-99FF-983E77D1DE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6FFB4E-B229-432A-99FF-983E77D1DE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6FFB4E-B229-432A-99FF-983E77D1DE98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

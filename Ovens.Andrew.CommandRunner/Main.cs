@@ -94,7 +94,7 @@ namespace Ovens.Andrew.CommandRunner
                         _commands.FirstOrDefault(cmd => cmd.Metadata.Name == item.Name);
                     if (command == null)
                     {
-                        Log.Warning("Command not found: {0}", item);
+                        Log.Warning("Command not found: {0}", item.Name);
                         continue;
                     }
                     command.Value.Initialize(item.GetSettingDictionary());
