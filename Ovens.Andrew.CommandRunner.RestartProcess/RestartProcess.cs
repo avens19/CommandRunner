@@ -41,35 +41,29 @@ namespace Ovens.Andrew.CommandRunner.RestartProcess
                     Log.Comment("Process wasn't running");
                 }
 
-                Thread.Sleep(5000);
-
-                while (Process.GetProcessesByName(_processName).Length < 1 && tries <= MaxRetries)
+                do
                 {
                     try
                     {
+                        Thread.Sleep(5000);
+
                         var startInfo = new ProcessStartInfo(_programPath) {WindowStyle = ProcessWindowStyle.Minimized};
 
                         if (!string.IsNullOrWhiteSpace(_arguments))
                             startInfo.Arguments = _arguments;
 
                         Process.Start(startInfo);
-
-                        Thread.Sleep(5000);
-
-                        Process.Start(startInfo);
-
-                        return true;
                     }
                     catch (Exception)
                     {
-                        if (tries == MaxRetries)
-                            throw;
-
                         tries++;
-                    }
-                }
 
-                return false;
+                        if (tries >= MaxRetries)
+                            throw;
+                    }
+                } while (Process.GetProcessesByName(_processName).Length < 1 && tries < MaxRetries);
+
+                return true;
             });
 
             t.Start();
