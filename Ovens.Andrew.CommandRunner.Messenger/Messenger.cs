@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Ovens.Andrew.CommandRunner.Common;
-using Twilio;
+using RestSharp;
 
 namespace Ovens.Andrew.CommandRunner.Messenger
 {
@@ -15,38 +15,34 @@ namespace Ovens.Andrew.CommandRunner.Messenger
     [ExportMetadata("Name", "Messenger")]
     public class Messenger: IRunnable
     {
-        private string _accountSid;
-        private string _authToken;
-        private string _fromNumber;
-        private string _toNumber;
+        private string _host;
+        private string _messageFormat;
 
         public void Initialize(Dictionary<string, string> settings)
         {
-            _accountSid = settings["accountSid"];
-            _authToken = settings["authToken"];
-            _fromNumber = settings["fromNumber"];
-            _toNumber = settings["toNumber"];
+            _host = settings["host"];
+            _messageFormat = settings["messageFormat"];
         }
 
-        public Task<bool> Run()
+        public async Task<bool> Run()
         {
             Log.Comment("Starting Messenger run");
-            var t = new Task<bool>(() =>
+            string body = string.Format(_messageFormat, Parameters.Args["Name"]);
+                
+            var request = new RestRequest { RequestFormat = DataFormat.Json };
+            var input = new
             {
-                var twilio = new TwilioRestClient(_accountSid, _authToken);
+                data = new {
+                    message = body
+                }
+            };
+            request.AddBody(input);
+            request.Method = Method.POST;
+            string result = await HttpRunner.Execute(request, _host, true);
 
-                string body = string.Format("The torrent {0} finished successfully", Parameters.Args["Name"]);
+            Log.Comment("Message sent");
 
-                var message = twilio.SendMessage(_fromNumber, _toNumber, body);
-
-                Log.Comment("Message sent with status: {0}", message.Status);
-
-                return true;
-            });
-
-            t.Start();
-
-            return t;
+            return true;
         }
 
         public void WaitAfter()
